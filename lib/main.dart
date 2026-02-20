@@ -66,7 +66,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
           );
         },
-        child: Container(child: Message('你好')),
+        child: Container(child: Message('你好wwww')),
       ),
     );
   }
