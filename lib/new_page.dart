@@ -1,10 +1,16 @@
 import 'package:flutter/material.dart';
 
 class NewPage extends StatelessWidget {
-  const NewPage({super.key});
+  final String title;
+  const NewPage(this.title,{super.key});
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      appBar: AppBar(title: Text(title)),
+      body: Center(
+        child: Text(title),
+      ),
+    );
   }
 }
