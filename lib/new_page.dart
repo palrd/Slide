@@ -1,15 +1,16 @@
 import 'package:flutter/material.dart';
 
 class NewPage extends StatelessWidget {
-  final String title;
-  const NewPage(this.title,{super.key});
+  final String songName;
+  final String singer;
+  final String comment;
+  const NewPage(this.songName, this.singer, this.comment, {super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text(title)),
       body: Center(
-        child: Text(title),
+        child: Column(children: [Text(songName), Text(singer), Text(comment)]),
       ),
     );
   }
