@@ -7,17 +7,17 @@ void main() {
 class Theme {
   static const TextStyle titleBold = TextStyle(
     fontSize: 14,
-    fontWeight: FontWeight.w900,
+    fontWeight: FontWeight.bold,
     color: Colors.black,
   );
   static const TextStyle titleStyle = TextStyle(
     fontSize: 14,
-    fontWeight: FontWeight.w600,
+    fontWeight: FontWeight.bold,
     color: Colors.black,
   );
   static const TextStyle subtitle = TextStyle(
     fontSize: 14,
-    fontWeight: FontWeight.w600,
+    fontWeight: FontWeight.bold,
     color: Colors.grey,
   );
 }
@@ -160,7 +160,7 @@ class _MessageCardState extends State<MessageCard> {
                           Text('7小时', style: Theme.subtitle),
                         ],
                       ),
-                      SizedBox(height:  5),
+                      SizedBox(height: 5),
                       Text(
                         '这将是我测试的文本内容！',
                         style: Theme.titleBold,
