@@ -121,6 +121,7 @@ class InputContent extends StatelessWidget {
               GestureDetector(
                 onTap: () {
                   Navigator.of(context).pop();
+                  
                 },
                 child: Container(
                   padding: EdgeInsets.symmetric(horizontal: 10, vertical: 5),
