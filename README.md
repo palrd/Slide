@@ -1,4 +1,8 @@
 Slider 社交应用 2025.12 – 2026.01
+
+视频展示链接：
+https://www.bilibili.com/video/BV16QwUzfEEE/?vd_source=6a5ec63f29e4ff95a269505dde7ee5c7
+
 核心开发 技术栈：Flutter + Provider + Dio + Sqflite + Spring Boot
 • 项目描述：开发轻量级社交应用客户端，涵盖信息流浏览、内容发布、用户主页等功能，完成端到端
 数据交互闭环。
